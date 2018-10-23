@@ -1,10 +1,8 @@
-package org.aum.fhir3.model.base.general;
+package org.healtheta.model.common;
 
 import javax.persistence.*;
 import com.fasterxml.jackson.annotation.*;
-import org.aum.fhir3.model.base.general.CodeableConcept;
-import org.aum.fhir3.model.base.general.Identifier;
-import org.aum.fhir3.model.base.individual.Patient;
+
 
 import java.io.Serializable;
 
@@ -24,7 +22,7 @@ public class Participant {
     //TODO convert to reference
     @OneToOne(fetch = FetchType.LAZY, cascade =  CascadeType.ALL)
     @JoinColumn(name = "_actor")
-    private Patient actor;
+    private Reference actor;
 
     @Column(name = "_required")
     private String required; //required|optional|information-only

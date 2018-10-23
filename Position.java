@@ -1,4 +1,4 @@
-package org.aum.fhir3.model.base.general;
+package org.healtheta.model.common;
 import javax.persistence.*;
 
 import com.fasterxml.jackson.annotation.*;

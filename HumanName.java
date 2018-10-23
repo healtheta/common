@@ -1,4 +1,4 @@
-package org.aum.fhir3.model.base.general;
+package org.healtheta.model.common;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 

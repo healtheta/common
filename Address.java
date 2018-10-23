@@ -1,4 +1,4 @@
-package org.healtheta.model.common
+package org.healtheta.model.common;
 
 import javax.persistence.*;
 

@@ -1,10 +1,9 @@
-package org.aum.fhir3.model.base.general;
+package org.healtheta.model.common;
 
 import javax.persistence.*;
 import javax.validation.constraints.Size;
 
 import com.fasterxml.jackson.annotation.*;
-import org.aum.fhir3.model.foundation.Reference;
 
 import java.io.Serializable;
 

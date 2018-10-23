@@ -1,10 +1,8 @@
-package org.aum.fhir3.model.base.general;
+package org.healtheta.model.common;
 
 import javax.persistence.*;
 
 import com.fasterxml.jackson.annotation.*;
-import org.aum.fhir3.model.base.entities.Organization;
-import org.aum.fhir3.model.foundation.Reference;
 import java.util.List;
 
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
