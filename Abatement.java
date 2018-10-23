@@ -1,11 +1,8 @@
-package org.aum.fhir3.model.base.general;
+package org.healtheta.model.common
 
 
 import javax.persistence.*;
 import com.fasterxml.jackson.annotation.*;
-import org.aum.fhir3.model.base.general.CodeableConcept;
-import org.aum.fhir3.model.base.general.Identifier;
-import org.aum.fhir3.model.base.individual.Patient;
 
 import java.io.Serializable;
 import java.util.Date;
