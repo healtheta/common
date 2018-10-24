@@ -46,6 +46,11 @@ public class OperationOutcome implements Serializable{
 
     }
 
+    public static final OperationOutcome OperationNotSupported(){
+        return new OperationOutcome("error", "401", "this operation is not supported", null,null , null );
+
+    }
+
     public Issue getIssue() {
         return issue;
     }

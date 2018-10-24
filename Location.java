@@ -7,7 +7,7 @@ import java.util.List;
 
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 @Entity
-@Table(name = "Location")
+@Table(name = "_Location")
 public class Location {
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)

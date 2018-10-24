@@ -8,7 +8,7 @@ import java.util.Date;
 
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 @Entity
-@Table(name = "AvailableTime")
+@Table(name = "_AvailableTime")
 public class AvailableTime {
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)

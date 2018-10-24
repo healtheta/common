@@ -7,5 +7,5 @@ import org.healtheta.model.common.Identifier;
 
 @Repository
 public interface IdentifierRepo extends JpaRepository<Identifier, Long> {
-    public Identifier findReferenceByValue(String value);
+    public Identifier findIdentifierByValue(String value);
 }

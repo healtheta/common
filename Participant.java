@@ -8,7 +8,7 @@ import java.io.Serializable;
 
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 @Entity
-@Table(name = "Participant")
+@Table(name = "_Participant")
 public class Participant {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

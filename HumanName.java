@@ -6,7 +6,7 @@ import javax.persistence.*;
 
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 @Entity
-@Table(name = "HumanName")
+@Table(name = "_HumanName")
 public class HumanName {
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO)
