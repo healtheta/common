@@ -5,7 +5,7 @@ import com.fasterxml.jackson.annotation.*;
 
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 @Entity
-@Table(name = "Position")
+@Table(name = "_Position")
 public class Position {
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)

@@ -7,7 +7,7 @@ import java.util.Date;
 
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 @Entity
-@Table(name = "Onset")
+@Table(name = "_Onset")
 public class Onset {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

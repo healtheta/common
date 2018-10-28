@@ -7,7 +7,7 @@ import java.io.Serializable;
 
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 @Entity
-@Table(name = "Reference")
+@Table(name = "_Reference")
 public class Reference {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -24,4 +24,35 @@ public class Reference {
     @Column(name = "_display")
     private String display;
 
+    public Long getId() {
+        return id;
+    }
+
+    public String getReference() {
+        return reference;
+    }
+
+    public Identifier getIdentifier() {
+        return identifier;
+    }
+
+    public String getDisplay() {
+        return display;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setReference(String reference) {
+        this.reference = reference;
+    }
+
+    public void setIdentifier(Identifier identifier) {
+        this.identifier = identifier;
+    }
+
+    public void setDisplay(String display) {
+        this.display = display;
+    }
 }

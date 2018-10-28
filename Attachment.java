@@ -6,7 +6,7 @@ import java.io.Serializable;
 import java.util.Date;
 
 @Entity
-@Table(name = "Attachment")
+@Table(name = "_Attachment")
 public class Attachment implements Serializable {
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)

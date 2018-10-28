@@ -9,7 +9,7 @@ import java.io.Serializable;
 
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 @Entity
-@Table(name = "Identifier")
+@Table(name = "_Identifier")
 public class Identifier {
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)

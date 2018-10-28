@@ -7,7 +7,7 @@ import java.util.List;
 
 
 @Entity
-@Table(name = "CodeableConcept")
+@Table(name = "_CodeableConcept")
 public class CodeableConcept implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

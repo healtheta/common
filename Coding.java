@@ -8,7 +8,7 @@ import com.fasterxml.jackson.annotation.*;
 import java.io.Serializable;
 
 @Entity
-@Table(name="Coding", uniqueConstraints= @UniqueConstraint(columnNames={"_system", "_version", "_code"}))
+@Table(name="_Coding")
 public class Coding implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
